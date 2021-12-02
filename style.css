@@ -1,0 +1,58 @@
+body{
+    color: white;
+    background-color: rgb(10, 1, 63);
+    display: flex;
+    width: 100%;
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  
+    
+}
+
+#main-doc{
+    margin-left: 350px;
+display: flex;
+flex-direction: column;
+
+
+}
+#navbar{
+   position: fixed;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 1px solid white;
+}
+
+section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    font-size: 2rem;
+    margin-top: 20px;
+}
+code{
+    background-color: rgb(128, 128, 131);
+    color: black;
+    padding: 20px;
+  
+}
+p{
+    font-size: 1.2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media(max-width:1000px){
+p{
+    font-size: 0.9rem;
+}
+}
+    
